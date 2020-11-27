@@ -1,0 +1,49 @@
+.listItem{
+    margin: 15px 0 15px 0;
+    font-size: 24px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    border: 1px solid gray;
+}
+.listItemContent{
+    margin: 15px 0 15px 0;
+    font-size: 24px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 15px;
+    
+}
+.btn_todo_delete{
+    width: 25px;
+    height: 25px;
+    margin: 0 10px;
+    border-radius: 50%;
+    outline: none;
+}
+.btn_addSublist{
+    width: 25px;
+    height: 25px;
+    margin: 0 10px;
+    border-radius: 50%;
+    outline: none;
+}
+
+.btnUp{
+    width: 25px;
+    height: 25px;
+    margin: 0 10px;
+    border-radius: 50%;
+    outline: none;
+
+}
+.btnDown{
+    width: 25px;
+    height: 25px;
+    margin: 0 10px;
+    border-radius: 50%;
+    outline: none;
+    transform: rotate(180deg);
+}

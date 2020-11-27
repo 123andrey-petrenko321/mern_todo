@@ -1,0 +1,29 @@
+.formSubmit{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.input{
+    height: 40px;
+    width: 80%;
+    border: 1px solid black; 
+    border-radius: 15px;
+    outline: none;
+    padding: 0 15px 0 15px;
+    font-size: 20px;
+}
+.btnSubmit{
+    height: 43px;
+    width: 15%;
+    border: 1px solid black; 
+    border-radius: 15px;
+    outline: none;
+    padding: 0 15px 0 15px;
+    font-size: 20px;
+    background-color: #fff;
+}
+.btnSubmit:hover{
+background-color: rgb(49, 156, 27);
+color: white;
+border: none;
+}
